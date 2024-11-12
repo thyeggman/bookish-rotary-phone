@@ -1,0 +1,5 @@
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  pre-entrypoint: 'foo.sh'
+  pre-if: false
