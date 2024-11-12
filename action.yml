@@ -1,5 +1,5 @@
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  pre-entrypoint: 'pre.sh'
-  pre-if: false
+  pre-entrypoint: '/pre.sh'
+  pre-if: true

@@ -1,6 +1,5 @@
 FROM alpine
 
-COPY foo.sh
-COPY bar.sh
+COPY foo.sh bar.sh pre.sh .
 
-ENTRYPOINT foo.sh
+ENTRYPOINT /foo.sh
