@@ -2,4 +2,4 @@ runs:
   using: 'docker'
   image: 'Dockerfile'
   pre-entrypoint: '/pre.sh'
-  pre-if: true
+  pre-if: false
